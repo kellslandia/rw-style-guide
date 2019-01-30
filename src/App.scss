@@ -1,0 +1,10 @@
+@import "baseStyles.scss";
+
+.App {
+  background-color: $background;
+}
+
+.AppText {
+  @include title-primary;
+  color: aqua;
+}

@@ -1,0 +1,46 @@
+// CONTENTS OF DOCUMENT
+//  - Colors
+//  - Typography
+
+
+// COLOR VARIABLES
+
+//landlord
+$landlord-primary-color: rgb(26, 42, 83);
+
+//rental
+$renter-primary-color: rgb(51, 153, 51);
+$renter-secondary-color: rgb(102, 179, 102);
+
+//default
+$black: #000;
+$white: #fff;
+$background: #FCFCFC;
+
+
+// TYPOGRAPHY
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i');
+
+@mixin title-primary {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+@mixin title-secondary {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.8em;
+}
+
+@mixin text-featured {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.4em;
+}
+
+@mixin text-main {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+}
