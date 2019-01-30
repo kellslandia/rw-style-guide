@@ -25,22 +25,34 @@ $background: #FCFCFC;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 2em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
 
 @mixin title-secondary {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 1.8em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
 
 @mixin text-featured {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 1.4em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
 
 @mixin text-main {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 1.2em;
+    font-size: 1.1em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
